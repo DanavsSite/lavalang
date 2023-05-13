@@ -1,0 +1,57 @@
+// comment ->
+/*multiline comments*/
+
+// imports :
+use cool_library::defexport,{some_function};
+
+// function call
+
+print("hello")
+print(content: "helo")
+
+//no semicolon, variables:
+hello := defexport
+hello : string = "hello"
+@title = "constant example"
+
+//loop
+
+/* injs:
+
+	tokens.forEach((token) => {
+
+	})
+ */
+
+hello ?= (2+2) = 4
+
+function hello(tokens) do for each token {
+		print(token)
+}
+
+function whileLoop do while ?hello {
+	print(hello)	
+}
+
+
+//control flow
+
+function ifHello(boolean:bool) do if ?boolean {
+	
+}
+
+
+//string & array concatenation
+
+
+[1,2,4,8].[2,48,84,12] // -> [1,2,4,8,2,48...]
+
+
+
+/*ONLY JS*/
+
+class -> struct {}
+
+new Foo(bar)  -> Foo {
+	bar,
+}
